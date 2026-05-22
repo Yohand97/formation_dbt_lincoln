@@ -14,5 +14,4 @@ jobs:
       with: {python-version: '3.11'}
       -run: pip install dbt-core dbt-duckdb
       -run: dbt build
-        env:
-          DBT_PROFILS_DIR:. 
+      env: DBT_PROFILS_DIR:. 
